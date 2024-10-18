@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+h1{
+    margin-bottom: 1rem;
+  font-size: 3.5rem;
+  line-height: 4rem;
+  font-weight: 600;
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fx 2fx 1fx;
+}
+.Highlights{
+    background-color: #add8e6;
+    margin-right: 30px;
+    
+}
+
+.Resturants{
+    background-color: aquamarine;
+    margin: 10px 30px 10px 10px;
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+   
+}
+
+.box1{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+    
+}
+
+.box2{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+.maps{
+    background-color: red;
+    margin: 10px;
+    width: 400px;
+}
+
+
+
+
+
+
+.popular__grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .popular__card {
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popular__content {
+    padding: 1rem;
+  }
+  
+  .popular__card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .popular__card__header h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+  
+  .popular__content p {
+    color: var(--text-light);
+  }
